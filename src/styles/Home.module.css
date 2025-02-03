@@ -1,0 +1,14 @@
+.home {
+    padding: 20px;
+    background-color: #fff;
+    min-height: calc(100vh - 40px);
+}
+
+.title {
+    font-size: 2rem;
+    color: #333;
+}
+.tooltip {
+    font-size: 1rem;
+    color: #333;
+}

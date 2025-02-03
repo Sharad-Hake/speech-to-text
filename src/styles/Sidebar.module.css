@@ -1,0 +1,57 @@
+/* Sidebar.module.css */
+
+.container {
+    display: flex; /* Use flexbox to align sidebar and content */
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.link {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    color: white; /* Link color */
+}
+
+.link:hover {
+    background-color: #34495e;
+}
+
+.active {
+    background-color: #2980b9; 
+}
+
+.logoutBtn {
+    margin-top: auto; 
+    padding: 15px;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 100px;
+}
+
+.logoutBtn:hover {
+    background-color: #c0392b; 
+}
+
+.content {
+    flex: 1; /* Take the remaining width */
+    padding: 20px; /* Add some padding */
+    background-color: #fff; /* Background color for content area */
+    min-height: 100vh; /* Ensure it takes full height */
+}
